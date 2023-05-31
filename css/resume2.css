@@ -1,0 +1,108 @@
+.body{
+    margin: 0px;
+    padding: 0px;
+}
+
+div#container{
+    display: flex;
+    width: 1448px;
+    height: 1500px;
+    background-color: black;
+}
+div#container1{
+    width:150px ;
+    height: 100px;
+    float: left;
+}
+
+div#container2{
+    width: 1100px;
+    height: 1500px;
+    margin-top: 20px;
+    margin-left:25px;
+    
+}
+
+div#container2 div#nav{
+    margin-left: 0px;
+    height: 70px;
+    width: 1100px;
+    background-color:rgb(60, 62, 63);
+}
+
+div#container2 div#cont1_1{
+    background-image: url(../imag/bg2.png);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 1300px;
+    margin-top: 0px;
+    box-shadow: 2px 3px 20px rgb(122, 100, 47);
+}
+
+div#container2 div#nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: #d9d4cd;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-weight: 600;
+    margin-top: 5px;
+    margin-left: 80px;
+    text-align: center;
+}
+
+div#container2 div#nav a:hover,
+div#container2 div#nav a.active {
+    background: #bf8227;
+    color: #fff;
+}
+
+div#container3{
+    float: right;
+    width: 300px;
+    height:400px;
+
+}
+
+div#container2 div#cont1_1 div.header{
+    background-color:transparent;
+    display: flex;
+    height: 100px;
+}
+
+
+
+
+div#container2 div#cont1_1 div.header p{
+    color: rgb(210, 213, 215);
+    margin-left: 50px;
+    
+    font-family: Bodoni MT;
+    font-size: 25px;
+}
+
+div#container2 div.cont1_2{
+    margin-left: 150px;
+    border: 2px solid black;
+    width: 800px;
+    height: 900px;
+    margin-top: 100px;
+    box-shadow: 2px 3px 20px black;
+}
+
+/* div#container2 div.cont1_2{
+ 
+    border: 2px solid black;
+    position:absolute;
+    height: 550px;
+    width: 700px;
+    margin-left: 180px;
+    box-shadow: 2px 3px 20px black;
+   
+
+} */
+
+div#container2 div.cont1_2 table td{
+    color: rgb(227, 227, 207);
+
+}
